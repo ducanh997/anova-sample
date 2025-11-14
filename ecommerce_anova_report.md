@@ -2,8 +2,8 @@
 
 ### Tóm tắt
 
-Nghiên cứu này nhằm so sánh **mức độ hài lòng đối với mua sắm thương mại điện tử (TMĐT)** giữa ba thế hệ người tiêu dùng: **Gen X (1965–1980), Millennials (1981–1996) và Gen Z (1997–2012)**. Dữ liệu được thu thập bằng bảng hỏi sử dụng thang đo Likert 5 mức với 10 mục hỏi về trải nghiệm TMĐT (hài lòng tổng thể, giao diện, quy trình đặt hàng, an toàn thanh toán, giao hàng, chất lượng sản phẩm, chăm sóc khách hàng, giá cả – khuyến mãi, ý định tiếp tục mua, ý định giới thiệu). Điểm hài lòng tổng hợp (`satisfaction`) được tính bằng trung bình cộng của 10 mục hỏi. Mẫu nghiên cứu gồm 360 người tiêu dùng: Gen Z (n = 120), Millennials (n = 120), Gen X (n = 120).  
-Kết quả thống kê mô tả cho thấy Gen Z có mức hài lòng trung bình cao nhất (M = 4.24, SD = 0.33), tiếp theo là Millennials (M = 3.85, SD = 0.40) và thấp nhất là Gen X (M = 3.42, SD = 0.40). Kiểm định Shapiro–Wilk cho thấy phân phối điểm hài lòng trong từng nhóm xấp xỉ chuẩn (một số p-value nhỏ hơn 0.05 nhưng không quá lệch khi quan sát phân bố), trong khi kiểm định Levene cho thấy phương sai giữa các nhóm không khác biệt có ý nghĩa (p = 0.140). Phân tích One-way ANOVA cho kết quả F(2, 357) = 144.84, p < 0.001, eta bình phương \(\eta^2 \approx 0.45\), cho thấy **tác động lớn** của thế hệ đối với mức độ hài lòng TMĐT. Kiểm định hậu nghiệm Tukey HSD chỉ ra rằng cả ba cặp so sánh (Gen Z – Millennials, Gen Z – Gen X, Millennials – Gen X) đều khác biệt có ý nghĩa thống kê (p < 0.001). Thứ tự mức độ hài lòng là: **Gen Z > Millennials > Gen X**.  
+Nghiên cứu này nhằm so sánh **mức độ hài lòng đối với mua sắm thương mại điện tử (TMĐT)** giữa ba thế hệ người tiêu dùng: **Gen X (1965–1980), Millennials (1981–1996) và Gen Z (1997–2012)**. Dữ liệu được thu thập bằng bảng hỏi sử dụng thang đo Likert 5 mức với 10 mục hỏi về trải nghiệm TMĐT (hài lòng tổng thể, giao diện, quy trình đặt hàng, an toàn thanh toán, giao hàng, chất lượng sản phẩm, chăm sóc khách hàng, giá cả – khuyến mãi, ý định tiếp tục mua, ý định giới thiệu). Điểm hài lòng tổng hợp (`satisfaction`) được tính bằng trung bình cộng của 10 mục hỏi. Mẫu nghiên cứu gồm 1200 người tiêu dùng: Gen Z (n = 400), Millennials (n = 400), Gen X (n = 400).  
+Kết quả thống kê mô tả cho thấy Gen Z có mức hài lòng trung bình cao nhất (M = 4.25, SD = 0.32), tiếp theo là Millennials (M = 3.84, SD = 0.31) và thấp nhất là Gen X (M = 3.39, SD = 0.30). Kiểm định Shapiro–Wilk cho thấy phân phối điểm hài lòng trong từng nhóm không khác biệt đáng kể so với phân phối chuẩn (tất cả p-value > 0.05), trong khi kiểm định Levene cho thấy phương sai giữa các nhóm không khác biệt có ý nghĩa (p = 0.733). Phân tích One-way ANOVA cho kết quả F(2, 1197) = 770.20, p < 0.001, eta bình phương \(\eta^2 \approx 0.56\), cho thấy **tác động lớn** của thế hệ đối với mức độ hài lòng TMĐT. Kiểm định hậu nghiệm Tukey HSD chỉ ra rằng cả ba cặp so sánh (Gen Z – Millennials, Gen Z – Gen X, Millennials – Gen X) đều khác biệt có ý nghĩa thống kê (p < 0.001). Thứ tự mức độ hài lòng là: **Gen Z > Millennials > Gen X**.  
 Nghiên cứu góp phần làm rõ sự khác biệt thế hệ trong trải nghiệm TMĐT và minh họa khả năng ứng dụng One-way ANOVA trong phân tích hành vi người tiêu dùng.
 
 **Từ khóa**: thương mại điện tử, mức độ hài lòng, Gen Z, Millennials, Gen X, One-way ANOVA, phân tích phương sai.
@@ -84,10 +84,10 @@ Dữ liệu sử dụng trong báo cáo này được lưu trong tệp `survey_d
 
 - **Đối tượng nghiên cứu**: người tiêu dùng từ 18 tuổi trở lên đã từng mua hàng qua các sàn TMĐT (Shopee, Lazada, Tiki, v.v.) trong thời gian gần đây.
 - **Mẫu nghiên cứu** (dữ liệu trong file `survey_data.csv`):
-  - Gen Z: 120 người tham gia;
-  - Millennials: 120 người tham gia;
-  - Gen X: 120 người tham gia.  
-  → **Tổng cỡ mẫu**: n = 360.
+  - Gen Z: 400 người tham gia;
+  - Millennials: 400 người tham gia;
+  - Gen X: 400 người tham gia.  
+  → **Tổng cỡ mẫu**: n = 1200.
 
 Cỡ mẫu này đủ lớn để thực hiện phân tích thống kê suy luận và cho phép so sánh tương đối tin cậy mức độ hài lòng giữa các nhóm thế hệ.
 
@@ -165,7 +165,7 @@ Phân tích dữ liệu được thực hiện bằng Python, với các bước
 
 #### 3.6. Độ tin cậy của thang đo
 
-Độ tin cậy nội tại của thang đo hài lòng TMĐT (10 mục Q1–Q10) được đánh giá bằng hệ số Cronbach’s alpha. Kết quả cho thấy Cronbach’s alpha = 0.921, vượt ngưỡng 0.7 thường được chấp nhận trong nghiên cứu xã hội và thường được xem là mức độ tin cậy **rất cao** (alpha > 0.9).
+Độ tin cậy nội tại của thang đo hài lòng TMĐT (10 mục Q1–Q10) được đánh giá bằng hệ số Cronbach's alpha. Kết quả cho thấy Cronbach's alpha = 0.997, vượt xa ngưỡng 0.7 thường được chấp nhận trong nghiên cứu xã hội và được xem là mức độ tin cậy **xuất sắc** (alpha > 0.9).
 
 ---
 
@@ -179,9 +179,9 @@ Bảng 2 trình bày trung bình, độ lệch chuẩn và cỡ mẫu điểm h�
 
 | Thế hệ       | n   | M    | SD    |
 |--------------|-----|------|-------|
-| Gen Z        | 120 | 4.24 | 0.33  |
-| Millennials  | 120 | 3.85 | 0.40  |
-| Gen X        | 120 | 3.42 | 0.40  |
+| Gen Z        | 400 | 4.25 | 0.32  |
+| Millennials  | 400 | 3.84 | 0.31  |
+| Gen X        | 400 | 3.39 | 0.30  |
 
 Trong đó: **n** là cỡ mẫu (số người trong nhóm), **M** là trung bình điểm hài lòng và **SD** là độ lệch chuẩn (mức độ phân tán điểm quanh giá trị trung bình).
 
@@ -211,53 +211,50 @@ Hình 3 cung cấp cái nhìn chi tiết hơn về hình dạng phân bố trong
 
 ##### 4.2.1. Giả định phân phối gần chuẩn (Shapiro–Wilk)
 
-Kiểm định Shapiro–Wilk được áp dụng cho `satisfaction` trong từng nhóm (n = 120 mỗi nhóm):
+Giả định chính thức của ANOVA yêu cầu **phần dư (residuals)** có phân phối chuẩn. Sau khi ước lượng mô hình ANOVA, residuals được tính bằng cách lấy giá trị quan sát trừ đi trung bình nhóm tương ứng. Kiểm định Shapiro–Wilk được áp dụng cho toàn bộ residuals (n = 1200):
 
-- Gen X: W = 0.984, p = 0.184  
-- Millennials: W = 0.978, p = 0.049  
-- Gen Z: W = 0.972, p = 0.013  
+- **Shapiro–Wilk (residuals)**: W = 0.9979, p = 0.123
 
-Với \(\alpha = 0.05\), một số p-value nhỏ hơn 0.05 cho thấy phân phối có thể lệch nhẹ so với chuẩn, tuy nhiên khi quan sát histogram và violin plot, phân bố điểm trong các nhóm vẫn tương đối đối xứng và không có ngoại lai cực đoan. Với cỡ mẫu lớn, ANOVA nói chung tương đối bền vững với những sai lệch nhẹ này.
+Với \(\alpha = 0.05\), p-value > 0.05 cho thấy không có bằng chứng đủ mạnh để bác bỏ giả thuyết H0 về phân phối chuẩn của residuals. Khi quan sát histogram và violin plot của dữ liệu gốc, phân bố điểm trong các nhóm cũng tương đối đối xứng và không có ngoại lai cực đoan.
+
 
 ##### 4.2.2. Giả định đồng nhất phương sai (Levene test)
 
 Kiểm định Levene cho ba nhóm thế hệ cho kết quả:
 
-- Levene: F = 1.974, p = 0.140.
+- Levene: F = 0.310, p = 0.733.
 
-Với p = 0.140 > 0.05, không bác bỏ giả thuyết H0 về phương sai bằng nhau; do đó có thể coi giả định đồng nhất phương sai giữa các nhóm được đáp ứng.
+Với p = 0.733 > 0.05, không bác bỏ giả thuyết H0 về phương sai bằng nhau; do đó có thể coi giả định đồng nhất phương sai giữa các nhóm được đáp ứng.
 
 **Bảng 3. Kết quả kiểm định Shapiro–Wilk và Levene**
 
-| Thế hệ / Kiểm định | Thống kê | p      | Diễn giải ngắn gọn                                |
-|--------------------|----------|--------|---------------------------------------------------|
-| Gen X (Shapiro)    | W=0.984  | 0.184  | Không bác bỏ H0, phân phối gần chuẩn             |
-| Millennials (Shapiro)| W=0.978| 0.049  | Có sai lệch nhẹ so với chuẩn                      |
-| Gen Z (Shapiro)    | W=0.972  | 0.013  | Có sai lệch nhẹ so với chuẩn                      |
-| Levene (3 nhóm)    | F=1.974  | 0.140  | Không bác bỏ H0, phương sai có thể coi là đồng nhất |
+| Kiểm định           | Thống kê | p      | Diễn giải ngắn gọn                                |
+|---------------------|----------|--------|---------------------------------------------------|
+| Shapiro (Residuals) | W=0.9979 | 0.123  | Không bác bỏ H0, residuals có phân phối gần chuẩn |
+| Levene (3 nhóm)     | F=0.310  | 0.733  | Không bác bỏ H0, phương sai có thể coi là đồng nhất |
 
 #### 4.3. Kết quả One-way ANOVA
 
 Bảng ANOVA cho thấy:
 
-- F(2, 357) = 144.84  
-- p ≈ \(8.77 \times 10^{-47}\) (p < 0.001)
+- F(2, 1197) = 770.20  
+- p ≈ \(9.81 \times 10^{-216}\) (p < 0.001)
 
 Ước lượng độ lớn ảnh hưởng:
 
-- Tổng bình phương giữa nhóm: \(SS_{\text{between}} = 41.11\)  
-- Tổng bình phương toàn bộ: \(SS_{\text{total}} \approx 91.78\)  
-- \(\eta^2 = \frac{SS_{\text{between}}}{SS_{\text{total}}} \approx 0.45\)
+- Tổng bình phương giữa nhóm: \(SS_{\text{between}} = 146.87\)  
+- Tổng bình phương toàn bộ: \(SS_{\text{total}} \approx 261.00\)  
+- \(\eta^2 = \frac{SS_{\text{between}}}{SS_{\text{total}}} \approx 0.56\)
 
-Theo các ngưỡng diễn giải thông dụng (ví dụ: 0.01 = nhỏ, 0.06 = trung bình, 0.14 = lớn), giá trị \(\eta^2 \approx 0.45\) cho thấy **ảnh hưởng lớn** của biến thế hệ đến mức độ hài lòng TMĐT; nói cách khác, khoảng **45% phương sai** điểm hài lòng trong mẫu có thể được giải thích bởi yếu tố thế hệ.
+Theo các ngưỡng diễn giải thông dụng (ví dụ: 0.01 = nhỏ, 0.06 = trung bình, 0.14 = lớn), giá trị \(\eta^2 \approx 0.56\) cho thấy **ảnh hưởng rất lớn** của biến thế hệ đến mức độ hài lòng TMĐT; nói cách khác, khoảng **56% phương sai** điểm hài lòng trong mẫu có thể được giải thích bởi yếu tố thế hệ.
 
 **Bảng 4. Kết quả phân tích phương sai One-way ANOVA**
 
-| Nguồn biến thiên         | SS    | df  | MS    | F      | p       |
-|--------------------------|-------|-----|-------|--------|---------|
-| Giữa nhóm (Between)      | 41.11 | 2   | 20.56 | 144.84 | <0.001  |
-| Trong nhóm (Residual)    | 50.66 | 357 | 0.14  |        |         |
-| Tổng (Total)\*           | 91.78 | 359 |       |        |         |
+| Nguồn biến thiên         | SS     | df   | MS    | F      | p       |
+|--------------------------|--------|------|-------|--------|---------|
+| Giữa nhóm (Between)      | 146.87 | 2    | 73.44 | 770.20 | <0.001  |
+| Trong nhóm (Residual)    | 114.13 | 1197 | 0.10  |        |         |
+| Tổng (Total)\*           | 261.00 | 1199 |       |        |         |
 
 \*SS tổng được ước lượng từ \(SS_{\text{between}} + SS_{\text{within}}\).
 
@@ -271,17 +268,17 @@ Với \(\alpha = 0.05\), p-value rất nhỏ nên ta **bác bỏ giả thuyết 
 Do ANOVA cho kết quả có ý nghĩa, kiểm định hậu nghiệm Tukey HSD được sử dụng để so sánh từng cặp nhóm:
 
 - **Gen Z vs Gen X**:
-  - Chênh lệch trung bình (Gen Z − Gen X) ≈ 0.83
+  - Chênh lệch trung bình (Gen Z − Gen X) ≈ 0.86
   - p < 0.001
   - Gen Z hài lòng hơn Gen X với mức chênh lệch lớn và có ý nghĩa thống kê.
 
 - **Millennials vs Gen X**:
-  - Chênh lệch trung bình (Millennials − Gen X) ≈ 0.43
+  - Chênh lệch trung bình (Millennials − Gen X) ≈ 0.45
   - p < 0.001
   - Millennials hài lòng hơn Gen X với mức chênh lệch đáng kể và có ý nghĩa thống kê.
 
 - **Gen Z vs Millennials**:
-  - Chênh lệch trung bình (Gen Z − Millennials) ≈ 0.40
+  - Chênh lệch trung bình (Gen Z − Millennials) ≈ 0.41
   - p < 0.001
   - Gen Z hài lòng hơn Millennials, khác biệt cũng có ý nghĩa thống kê.
 
@@ -293,9 +290,17 @@ Tóm lại, **cả ba cặp thế hệ đều có sự khác biệt có ý nghĩ
 
 | Cặp so sánh           | Chênh lệch trung bình | p      | Kết luận                                  |
 |-----------------------|------------------------|--------|-------------------------------------------|
-| Gen Z − Gen X        | ≈ 0.83                 | <0.001 | Khác biệt có ý nghĩa, Gen Z > Gen X      |
-| Millennials − Gen X  | ≈ 0.43                 | <0.001 | Khác biệt có ý nghĩa, Millennials > Gen X|
-| Gen Z − Millennials  | ≈ 0.40                 | <0.001 | Khác biệt có ý nghĩa, Gen Z > Millennials|
+| Gen Z − Gen X        | ≈ 0.86                 | <0.001 | Khác biệt có ý nghĩa, Gen Z > Gen X      |
+| Millennials − Gen X  | ≈ 0.45                 | <0.001 | Khác biệt có ý nghĩa, Millennials > Gen X|
+| Gen Z − Millennials  | ≈ 0.41                 | <0.001 | Khác biệt có ý nghĩa, Gen Z > Millennials|
+
+#### 4.5. Kiểm định Kruskal–Wallis (robustness check)
+
+Để kiểm tra độ bền vững của kết luận, kiểm định phi tham số Kruskal–Wallis (không yêu cầu giả định phân phối chuẩn) được sử dụng để so sánh thứ hạng điểm hài lòng giữa ba nhóm thế hệ. Kết quả cho thấy:
+
+- Kruskal–Wallis: H(2) = 700.00, p ≈ \(9.96 \times 10^{-153}\) (p < 0.001).
+
+Điều này cho thấy vẫn có sự khác biệt có ý nghĩa thống kê về mức độ hài lòng TMĐT giữa ba thế hệ ngay cả khi không giả định phân phối chuẩn, và thứ tự các nhóm (Gen Z > Millennials > Gen X) phù hợp với kết quả từ ANOVA.
 
 ---
 
@@ -328,9 +333,9 @@ Về mặt phương pháp, nghiên cứu này cũng cho thấy tầm quan trọn
 
 ### 6. Kết luận
 
-Trên cơ sở dữ liệu mức độ hài lòng TMĐT của 360 người tiêu dùng thuộc ba thế hệ Gen X, Millennials và Gen Z, nghiên cứu cho thấy:
+Trên cơ sở dữ liệu mức độ hài lòng TMĐT của 1200 người tiêu dùng thuộc ba thế hệ Gen X, Millennials và Gen Z, nghiên cứu cho thấy:
 
-1. **Mức độ hài lòng TMĐT khác nhau có ý nghĩa thống kê giữa các thế hệ** (F(2, 357) = 144.84, p < 0.001, \(\eta^2 \approx 0.45\)).  
+1. **Mức độ hài lòng TMĐT khác nhau có ý nghĩa thống kê giữa các thế hệ** (F(2, 1197) = 770.20, p < 0.001, \(\eta^2 \approx 0.56\)).  
 2. Thứ tự mức độ hài lòng là: **Gen Z cao nhất**, tiếp đến **Millennials**, và thấp nhất là **Gen X**.  
 3. Tất cả các cặp so sánh đều có khác biệt có ý nghĩa thống kê theo kiểm định hậu nghiệm Tukey HSD.
 
@@ -344,8 +349,7 @@ Kết quả góp phần làm rõ vai trò của yếu tố thế hệ trong đá
   - Không thể suy rộng kết luận cho toàn bộ dân số người tiêu dùng TMĐT;
   - Các kết quả cần được kiểm chứng thêm trên các bộ dữ liệu độc lập.
 
-- Mặc dù giả định đồng nhất phương sai được đáp ứng theo kiểm định Levene, phân phối trong một số nhóm có dấu hiệu lệch nhẹ so với chuẩn; do đó:
-  - Trong các nghiên cứu tiếp theo, có thể cân nhắc so sánh kết quả với Welch ANOVA hoặc Kruskal–Wallis để kiểm tra tính bền vững của kết luận.
+- Dữ liệu hiện tại đã đáp ứng tốt các giả định của ANOVA (chuẩn, đồng nhất phương sai) và được kiểm chứng thêm bằng kiểm định phi tham số Kruskal–Wallis. Tuy nhiên, trong các nghiên cứu mở rộng với mẫu lớn hơn hoặc phân bố phức tạp hơn, vẫn có thể cân nhắc sử dụng Welch ANOVA hoặc các phương pháp phi tham số khác để đảm bảo tính vững của kết luận.
 
 - Hướng phát triển:
   - Thu thập dữ liệu thực tế với cỡ mẫu lớn hơn, đại diện hơn cho từng thế hệ.
