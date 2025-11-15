@@ -215,8 +215,13 @@ Giả định chính thức của ANOVA yêu cầu **phần dư (residuals)** c�
 
 - **Shapiro–Wilk (residuals)**: W = 0.9979, p = 0.123
 
-Với \(\alpha = 0.05\), p-value > 0.05 cho thấy không có bằng chứng đủ mạnh để bác bỏ giả thuyết H0 về phân phối chuẩn của residuals. Khi quan sát histogram và violin plot của dữ liệu gốc, phân bố điểm trong các nhóm cũng tương đối đối xứng và không có ngoại lai cực đoan.
+Với \(\alpha = 0.05\), p-value > 0.05 cho thấy không có bằng chứng đủ mạnh để bác bỏ giả thuyết H0 về phân phối chuẩn của residuals. 
 
+Để trực quan hóa giả định này, Hình 4 trình bày Q-Q plot (quantile-quantile plot) của residuals so với phân phối chuẩn lý thuyết.
+
+![Hình 4. Q-Q plot của residuals từ mô hình ANOVA](fig4_qqplot_residuals.png)
+
+Hình 4 cho thấy các điểm quan sát (residuals) nằm gần sát với đường thẳng lý thuyết (đường màu đỏ), chỉ có một số điểm ở hai đuôi phân phối lệch nhẹ. Điều này xác nhận kết quả của kiểm định Shapiro-Wilk và cho thấy giả định phân phối chuẩn của residuals được đáp ứng tốt. Khi quan sát histogram và violin plot của dữ liệu gốc ở các hình trước, phân bố điểm trong các nhóm cũng tương đối đối xứng và không có ngoại lai cực đoan.
 
 ##### 4.2.2. Giả định đồng nhất phương sai (Levene test)
 
