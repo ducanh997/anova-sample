@@ -132,7 +132,7 @@ Các mục hỏi bao phủ các khía cạnh: hài lòng tổng thể, giao di�
 #### 3.4. Quy trình thu thập và xử lý dữ liệu
 
 1. Thiết kế bảng hỏi và mã hóa các mục hỏi Q1–Q10 theo thang 1–5.
-2. Thu thập dữ liệu trong khoảng thời gian từ tháng 01 đến tháng 03 năm 2025 (dữ liệu được tổng hợp và lưu trong `survey_data.csv`).
+2. Dữ liệu được mô phỏng (simulated data) để minh họa quy trình phân tích ANOVA và lưu trong `survey_data.csv`.
 3. Đọc dữ liệu bằng Python (thư viện `pandas`).
 4. Mã hóa năm sinh (`year_of_birth`) thành biến `generation` theo khoảng:
    - 1965–1980 → Gen X
