@@ -6,11 +6,13 @@ Nghiên cứu này phân tích mức độ hài lòng với thương mại đi�
 
 ## Kết quả chính
 
-- **Gen Z** có mức độ hài lòng cao nhất (M = 4.25, SD = 0.32)
-- **Millennials** có mức độ hài lòng trung bình (M = 3.84, SD = 0.31)
-- **Gen X** có mức độ hài lòng thấp nhất (M = 3.39, SD = 0.30)
-- Kiểm định ANOVA: F(2, 1197) = 770.20, p < 0.001, η² ≈ 0.56 (ảnh hưởng lớn)
+- **Độ tin cậy thang đo**: Cronbach's Alpha = 0.969 (xuất sắc)
+- **Gen Z** có mức độ hài lòng cao nhất (M = 4.19, SD = 0.48)
+- **Millennials** có mức độ hài lòng trung bình (M = 3.88, SD = 0.53)
+- **Gen X** có mức độ hài lòng thấp nhất (M = 3.41, SD = 0.57)
+- Kiểm định ANOVA: F(2, 1197) = 221.88, p < 0.001, η² = 0.27 (ảnh hưởng lớn)
 - Tất cả các cặp so sánh đều có khác biệt có ý nghĩa thống kê (Tukey HSD, p < 0.001)
+- Kiểm định phi tham số: Kruskal-Wallis H(2) = 340.64, p < 0.001
 
 ## Cấu trúc dự án
 
@@ -82,7 +84,7 @@ jupyter notebook ecommerce_satisfaction.ipynb
 - **Thiết kế**: Định lượng, so sánh giữa các nhóm
 - **Cỡ mẫu**: n = 1200 (Gen Z: 400, Millennials: 400, Gen X: 400)
 - **Công cụ**: Bảng hỏi với thang đo Likert 5 mức (10 câu hỏi)
-- **Độ tin cậy**: Cronbach's alpha = 0.997
+- **Độ tin cậy**: Cronbach's alpha = 0.969 (xuất sắc)
 
 ### Biến nghiên cứu
 - **Biến độc lập**: Thế hệ (Generation) - 3 mức
